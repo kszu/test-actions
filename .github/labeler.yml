@@ -2,3 +2,7 @@ repo:
   - '**'
   - '.*'
   - '.*/**'
+
+new-dependency:
+  - 'package.json'
+  - 'package-lock.json'

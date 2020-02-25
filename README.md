@@ -8,5 +8,3 @@ Ideally, this action will:
 5) If no, alert the user that no new dependencies were introduced.
 
 That's it!
-
-test

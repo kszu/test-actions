@@ -3,8 +3,6 @@
 #   - '.*'
 #   - '.*/**'
 
-new-dependency-in-package.json:
+new-dependency:
   - 'package.json'
-
-new-dependency-in-package-lock.json:
   - 'package-lock.json'

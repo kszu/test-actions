@@ -1,5 +1,5 @@
-name: 'Pull Request Labeler'
-description: 'Add labels to new pull requests based on the files that are changed'
+name: 'Pull request labeler'
+description: 'Add labels to new pull requests when introducing a new dependency'
 author: Keenan Szulik
 
 inputs: 
@@ -7,7 +7,7 @@ inputs:
     description: 'The GITHUB_TOKEN secret'
     
   configuration-path:
-    description: 'The path for the label configurations'
+    description: 'Path for the label configurations'
     default: '.github/labeler.yml'
 runs:
   using: 'node12'

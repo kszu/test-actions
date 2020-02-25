@@ -1,0 +1,14 @@
+name: 'Pull Request Labeler'
+description: 'Add labels to new pull requests based on the files that are changed'
+author: Keenan Szulik
+
+inputs: 
+  repo-token:
+    description: ${{ secrets.GITHUB_TOKEN }}
+    
+  configuration-path:
+    description: 'The path for the label configurations'
+    default: '.github/workflows/labeler.yml'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'

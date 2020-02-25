@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kszu/test-actions/issues"
   },
-  "homepage": "https://github.com/kszu/test-actions#readme"
+  "homepage": "https://github.com/kszu/test-actions#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }

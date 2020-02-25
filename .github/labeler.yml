@@ -1,8 +1,10 @@
-repo:
-  - '**'
-  - '.*'
-  - '.*/**'
+# repo:
+#   - '**'
+#   - '.*'
+#   - '.*/**'
 
-new-dependency:
+new-dependency-in-package.json:
   - 'package.json'
+
+new-dependency-in-package-lock.json:
   - 'package-lock.json'

@@ -4,11 +4,11 @@ author: Keenan Szulik
 
 inputs: 
   repo-token:
-    description: ${{ secrets.GITHUB_TOKEN }}
+    description: 'The GITHUB_TOKEN secret'
     
   configuration-path:
     description: 'The path for the label configurations'
-    default: '.github/workflows/labeler.yml'
+    default: '.github/labeler.yml'
 runs:
   using: 'node12'
-  main: 'lib/main.ts'
+  main: 'lib/main.js'

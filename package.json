@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kszu/test-actions#readme",
   "dependencies": {
-    "@actions/core": "^1.2.2",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^2.1.1",
     "js-yaml": "^3.13.1",
     "minimatch": "^3.0.4",
